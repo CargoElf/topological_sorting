@@ -9,8 +9,12 @@ RSpec.describe Node do
       expect(node.name).to be nil
     end
 
-    it 'Has readble depends_on' do
+    it 'Has a readble links_to' do
       expect(node.depends_on).to eq []
+    end
+
+    it 'Has a reable visit_status' do
+      
     end
   end
 end
